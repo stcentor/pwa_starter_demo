@@ -43,8 +43,8 @@ var text_tone = {
 
 //cloudant setup
 var curr_docs = {};
-var Cloudant = '';
-cloudant = require('@cloudant/cloudant');
+var Cloudant = require('@cloudant/cloudant');
+cloudant = Cloudant('');
 //mydb = cloudant.db.use('test');
 
 //used to populate curr docs object
